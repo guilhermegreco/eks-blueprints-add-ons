@@ -16,7 +16,8 @@ spec:
             - key: akuity.io/argo-cd-cluster-name
               operator: NotIn
               values: [in-cluster]
-            - key: enable_aws_crossplane
+            - key: enable_aws_crossplane_upbound_provider
+            # - key: enable_aws_crossplane            
               operator: In
               values: ['true']
   template:
