@@ -5,7 +5,7 @@ kind: Provider
 metadata:
   name: upbound-provider-family-aws
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   package: {{ $.Values.global.aws_upbound_registry }}/provider-family-aws:{{ $.Values.global.aws_upbound_version }}
 
