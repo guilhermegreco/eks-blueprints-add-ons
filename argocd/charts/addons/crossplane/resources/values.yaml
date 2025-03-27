@@ -9,15 +9,7 @@ global:
 
 aws-upbound:
   providers:
-  - cloudfront
-  - cloudwatchlogs
-  - dynamodb
-  - ec2
-  - eks
-  - firehose
   - iam
-  - kms
-  - lambda
   - rds
   - s3
   - sns
