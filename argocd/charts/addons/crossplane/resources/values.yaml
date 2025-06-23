@@ -10,7 +10,7 @@ global:
 aws-upbound:
   providers:
   - iam
-  - rds
-  - s3
-  - sns
-  - sqs
+  # - rds
+  # - s3
+  # - sns
+  # - sqs
