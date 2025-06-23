@@ -5,7 +5,7 @@ kind: Provider
 metadata:
   name: {{ .metadata.name }}
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: "1"
     {{- range $key, $value := .metadata.annotations }}
     {{ $key }}: {{ $value | quote }}
     {{- end }}
